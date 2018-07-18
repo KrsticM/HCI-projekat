@@ -1,0 +1,25 @@
+﻿<Window x:Class="_4._2BVproject.HelpViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_4._2BVproject"
+        mc:Ignorable="d"
+        Icon="images/slon.ico"
+        Title="HelpViewer" Height="350" Width="600">
+    <!--Window.CommandBindings>
+        <CommandBinding Command="NavigationCommands.BrowseBack" CanExecute="BrowseBack_CanExecute" Executed="BrowseBack_Executed" />
+        <CommandBinding Command="NavigationCommands.BrowseForward" CanExecute="BrowseForward_CanExecute" Executed="BrowseForward_Executed" />
+    </-->    
+    <DockPanel>
+        <!--ToolBar DockPanel.Dock="Top">
+            <Button Command="NavigationCommands.BrowseBack">
+                Nazad
+            </Button>
+            <Button Command="NavigationCommands.BrowseForward">
+                Dalje
+            </Button>
+        </-->
+        <WebBrowser Name="wbHelp"></WebBrowser>
+    </DockPanel>
+</Window>

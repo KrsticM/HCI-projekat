@@ -1,0 +1,74 @@
+﻿<Window x:Class="_4._2BVproject.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_4._2BVproject"
+        mc:Ignorable="d"
+        Title="Etiketa ugrožene vrste" Height="270" Width="400"
+        Icon="images/slon.ico"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Border Padding="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1.8*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="2.2*"/>
+                <ColumnDefinition Width="0.2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="0.2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2.5*" /> 
+                <RowDefinition Height="1.1*" />
+            </Grid.RowDefinitions>
+            <TextBlock ToolTip="Zvezdica (*) označava da je obavezno popuniti polje." Margin ="10 0 0 0" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="14px">Oznaka*:</TextBlock>
+            <TextBlock Margin ="10 0 0 0" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" FontSize="14px">Boja:</TextBlock>
+            <TextBlock Margin ="10 0 0 0" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left" FontSize="14px">Opis:</TextBlock>
+
+            <TextBox  ToolTipService.ShowDuration="20000"  ToolTip="Ovde unesite jedinstvenu oznaku etikete ugrožene vrste.&#013;Neophodno je da se oznaka sastoji od najmanje 3 karaktera." Name="xOznaka" Margin="0 0 0 6" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Stretch" TextChanged="xOznaka_TextChanged">
+                <TextBox.Text>
+                    <Binding Path="Oznaka" UpdateSourceTrigger="LostFocus">
+                        <Binding.ValidationRules>
+                            <local:ValidacijaOznakeEtikete ValidationStep="RawProposedValue"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0 0 20 0">
+                                <Border Background="Red" Width="20" Height="20" CornerRadius="10"
+                                        ToolTip="{Binding Path=/ErrorContent}">
+                                    <TextBlock Text="!" VerticalAlignment="center" HorizontalAlignment="center" FontWeight="Bold" Foreground="white"/>
+                                </Border>
+                                <TextBlock Margin="5,0,0,0" Foreground="Red" Text="{Binding [0].ErrorContent}"/>
+                            </StackPanel>
+                            <Border BorderBrush="Red" BorderThickness="1" Margin="5,0" Width="174" ToolTip="{Binding Path=/ErrorContent}">
+                                <AdornedElementPlaceholder Name="textBox"/>
+                            </Border>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>                
+            </TextBox>
+            <ComboBox  ToolTipService.ShowDuration="20000"  ToolTip="Kada kliknete ovde otvoriće se padajuća lista sa postojećim bojama.&#013;Potrebno je da izaberete jednu boju za etiketu. " Name="xBoja" Margin="0 0 0 6" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Stretch">
+                <ComboBoxItem>Crna</ComboBoxItem>
+                <ComboBoxItem>Žuta</ComboBoxItem>
+                <ComboBoxItem>Narandžasta</ComboBoxItem>
+                <ComboBoxItem>Zelena</ComboBoxItem>
+                <ComboBoxItem>Plava</ComboBoxItem>
+                <ComboBoxItem>Ljubičasta</ComboBoxItem>
+                <ComboBoxItem>Bela</ComboBoxItem>
+            </ComboBox>
+            <ScrollViewer Margin="0 0 0 3" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Stretch">
+                <TextBox  ToolTipService.ShowDuration="20000"  ToolTip="Ovde unesite opis etikete ugrožene vrste." Name="xOpis" AcceptsReturn="True"></TextBox>
+            </ScrollViewer>
+            <Button ToolTipService.ShowDuration="20000" ToolTipService.ShowOnDisabled="True" ToolTip="Kako bi dodavanje etikete ugrožene vrste bilo moguće neophodno je da popunite&#013;polje sa zvezdicom (*). Pritiskom na dugme etiketa ugrožene vrste će biti dodata." Height="30" Width="80" HorizontalAlignment="Right"  x:Name="PotvrdiDugme" Grid.Column="1" Grid.Row="5"  Click="Potvrdi_Click">Potvrdi</Button>
+            <Button ToolTipService.ShowDuration="20000" ToolTip="Pritiskom na dugme etiketa ugrožene vrste neće biti dodata."  Grid.Column="3" Grid.Row="5" Width="80" Height="30" HorizontalAlignment="Left" Click="Odustani_Click">Odustani</Button>
+        </Grid>        
+    </Border>
+</Window>

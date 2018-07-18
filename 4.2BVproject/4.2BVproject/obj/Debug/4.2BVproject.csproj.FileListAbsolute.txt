@@ -1,0 +1,165 @@
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe.config
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.pdb
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\App.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.cache
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.lref
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.g.resources
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\_4._2BVproject.Properties.Resources.resources
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.GenerateResource.Cache
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.exe
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.pdb
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window1.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window1.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window2.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window2.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window3.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window3.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window4.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Window4.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.baml
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_Content.g.cs
+C:\Users\Krstic\Desktop\3rd Year\HCI\VEZBE\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe.config
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.pdb
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csprojResolveAssemblyReference.cache
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window1.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window2.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window3.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window4.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\App.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_Content.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.cache
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.lref
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window1.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window2.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window3.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window4.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.baml
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.g.resources
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\_4._2BVproject.Properties.Resources.resources
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.GenerateResource.Cache
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.CoreCompileInputs.cache
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.exe
+C:\Users\Jaseyrae9\Downloads\Telegram Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.pdb
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe.config
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.pdb
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window1.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window2.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window3.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window4.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\App.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_Content.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.cache
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.lref
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window1.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window2.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window3.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\Window4.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.baml
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.g.resources
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\_4._2BVproject.Properties.Resources.resources
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.GenerateResource.cache
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.exe
+C:\Users\Krstic\Desktop\Novi\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.pdb
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe.config
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.pdb
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csprojResolveAssemblyReference.cache
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window1.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window2.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window3.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window4.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\App.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_Content.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.cache
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.lref
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window1.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window2.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window3.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\Window4.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.baml
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.g.resources
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\_4._2BVproject.Properties.Resources.resources
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.GenerateResource.Cache
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.CoreCompileInputs.cache
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.exe
+C:\Users\Jaseyrae9\Desktop\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.pdb
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe.config
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.exe
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\bin\Debug\4.2BVproject.pdb
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window1.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window2.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window3.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window4.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\App.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_Content.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.cache
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject_MarkupCompile.lref
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Dijalog.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\HelpViewer.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\MainWindow.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window1.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window2.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window3.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\Window4.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\WindowEtiketa.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\WindowTip.baml
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.g.resources
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\_4._2BVproject.Properties.Resources.resources
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.GenerateResource.cache
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.exe
+C:\Users\Krstic\Desktop\HCI projekat\4.2BVproject\4.2BVproject\obj\Debug\4.2BVproject.pdb

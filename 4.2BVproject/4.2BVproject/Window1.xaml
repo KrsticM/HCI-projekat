@@ -1,0 +1,294 @@
+﻿<Window x:Class="_4._2BVproject.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_4._2BVproject"
+        mc:Ignorable="d"
+        Title="Ugrožena vrsta" Height="430" Width="750"
+        Icon="images/slon.ico"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Border Padding="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="2.2*"/>
+                <ColumnDefinition Width="0.4*"/>
+                <ColumnDefinition Width="2.2*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1.7*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="0.2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="1.3*" />
+                <RowDefinition Height="1.5*" />
+            </Grid.RowDefinitions>
+            <TextBlock ToolTip="Zvezdica (*) označava da je obavezno popuniti polje." Margin ="10 15 0 0" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" FontSize="14px">Oznaka*:</TextBlock>
+            <TextBlock ToolTip="Zvezdica (*) označava da je obavezno popuniti polje." Margin ="10 15 0 0" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Left" FontSize="14px">Ime*:</TextBlock>
+            <TextBlock Margin ="10 10 0 0" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="14px">Opis:</TextBlock>
+            <TextBlock Margin ="10 10 0 0" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Left" FontSize="14px">Tip:</TextBlock>
+            <TextBlock VerticalAlignment="Center" Margin ="10 0 0 20" Grid.Column="5" Grid.Row="7" HorizontalAlignment="Left" FontSize="14px">Status ugroženosti:</TextBlock>
+            <TextBlock VerticalAlignment="Center" Margin ="10 0 0 0" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Left" FontSize="14px">Ikonica:</TextBlock>
+            <TextBlock Margin ="10 0 0 0" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left" FontSize="14px">Opasno po čoveka:</TextBlock>
+            <TextBlock Margin ="10 0 0 0" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Left" FontSize="14px">Nalazi se na IUCN <LineBreak/> crvenoj listi:</TextBlock>
+            <TextBlock Margin ="10 0 0 0" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left" FontSize="14px">Živi u naseljenom <LineBreak/>regionu:</TextBlock>
+            <TextBlock Margin ="10 5 0 0" Grid.Column="5" Grid.Row="5" HorizontalAlignment="Left" FontSize="14px">Turistički status:</TextBlock>
+            <TextBlock Margin ="10 0 0 0" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Left" FontSize="14px">Godišnji prihod od <LineBreak/>turizma:</TextBlock>
+            <TextBlock Margin ="10 0 0 0" Grid.Column="5" Grid.Row="6" HorizontalAlignment="Left" FontSize="14px">Datum otkrivanja:</TextBlock>
+
+            <!-- Oznaka -->
+            <TextBox ToolTipService.ShowDuration="20000"  ToolTip="Ovde unesite jedinstvenu oznaku ugrožene vrste.&#013;Neophodno je da se oznaka sastoji od najmanje 3 karaktera." Name="xOznaka" Margin="0 15 0 0" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Stretch" TextChanged="xOznaka_TextChanged">
+                <TextBox.Text>
+                    <Binding Path="Oznaka" UpdateSourceTrigger="LostFocus">
+                        <Binding.ValidationRules>
+                            <local:ValidacijaOznakeVrste ValidationStep="RawProposedValue"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0 0 20 0">
+                                <Border Background="Red" Width="20" Height="20" CornerRadius="10"
+                                        ToolTip="{Binding Path=/ErrorContent}">
+                                    <TextBlock Text="!" VerticalAlignment="center" HorizontalAlignment="center" FontWeight="Bold" Foreground="white"/>
+                                </Border>
+                                <TextBlock Margin="5,0,0,0" Foreground="Red" Text="{Binding [0].ErrorContent}"/>
+                            </StackPanel>
+                            <Border BorderBrush="Red" BorderThickness="1" Margin="5,0" Width="162" ToolTip="{Binding Path=/ErrorContent}">
+                                <AdornedElementPlaceholder Name="textBox"/>
+                            </Border>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBox>
+
+            <!-- Ime -->
+            <TextBox ToolTipService.ShowDuration="20000"  ToolTip="Ovde unesite ime ugrožene vrste." Name="xIme" Margin="0 15 0 0" Grid.Column="7" Grid.Row="1" HorizontalAlignment="Left" Width="180" TextChanged="xIme_TextChanged">
+                <TextBox.Text>
+                    <Binding Path="Ime" UpdateSourceTrigger="LostFocus">
+                        <Binding.ValidationRules>
+                            <local:ValidacijaVrste ValidationStep="RawProposedValue"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0 0 20 0">
+                                <Border Background="Red" Width="20" Height="20" CornerRadius="10">
+                                    <TextBlock Text="!" VerticalAlignment="center" HorizontalAlignment="center" FontWeight="Bold" Foreground="white"/>
+                                </Border>
+                                <TextBlock Margin="5,0,0,0" Foreground="Red" Text="{Binding [0].ErrorContent}"/>
+                            </StackPanel>
+                            <Border BorderBrush="Red" BorderThickness="1" Margin="5,0" Width="180">
+                                <AdornedElementPlaceholder Name="textBox"/>
+                            </Border>
+                        </StackPanel>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBox>
+
+            <!-- Opis -->
+            <ScrollViewer Grid.Column="3" Grid.Row="2" HorizontalAlignment="Stretch" Margin="0 3 0 3">
+                <TextBox ToolTipService.ShowDuration="20000"  ToolTip="Ovde unesite opis ugrožene vrste." Name="xOpis" AcceptsReturn="True"></TextBox>
+            </ScrollViewer>
+            <ComboBox ToolTipService.ShowDuration="20000"  ToolTip="Kada kliknete ovde otvoriće se padajuća lista&#013;sa postojećim tipovima. Neophodno je da izaberete jedan." Name="tip" Margin="0 10 0 5" Width="180" Grid.Column="7" Grid.Row="2" HorizontalAlignment="Left" ItemsSource="{Binding TipoviVrsta}" SelectionChanged="tip_SelectionChanged">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ImeVrste}"></TextBlock>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <ComboBox ToolTipService.ShowDuration="20000"  ToolTip="Kada kliknete ovde otvoriće se padajuća lista.&#013;Potrebno je da izaberete kog statusa ugroženosti je vrsta." Name="xStatus" Height="25" VerticalAlignment="Center" Grid.Column="7" Grid.Row="7" HorizontalAlignment="Stretch" Margin="0 0 0 20">
+                <ComboBoxItem>Kritično ugrožena</ComboBoxItem>
+                <ComboBoxItem>Ugrožena</ComboBoxItem>
+                <ComboBoxItem>Ranjiva</ComboBoxItem>
+                <ComboBoxItem>Zavisna od očuvanja staništa</ComboBoxItem>
+                <ComboBoxItem>Blizu rizika</ComboBoxItem>
+                <ComboBoxItem>Najmanje rizika</ComboBoxItem>
+            </ComboBox>
+            <!-- Ikonica -->
+            <Grid Margin="0 0 0 3" Grid.Column="7" Grid.Row="3" HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <!-- Ikonica -->
+                <Image ToolTipService.ShowDuration="20000"  ToolTip="Ovo predstavlja podrazumevanu ikonicu tipa ugrožene vrste.&#013;Ukoliko želite da je promenite idite na dugme Odaberi." Name="imgPhoto" Margin="5" Stretch="Fill" Grid.Column="0" />
+                <StackPanel VerticalAlignment="Center" Grid.Column="1" HorizontalAlignment="Left">
+                    <Button ToolTipService.ShowDuration="20000"  ToolTip="Pritiskom na ovo dugme otvoriće se dijalog gde je potrebno&#013;da izaberete ikonicu koju želite da dodelite ugroženoj vrsti." Margin="5 0 0 5" Name="btnOdaberi" Width="75" Click="btnOdaberi_Click">_Odaberi</Button>
+                    <Button ToolTipService.ShowDuration="20000"  ToolTip="Pritiskom na ovo dugme postaviće se&#013;podrazumevana ikonica ugrožene vrste." Margin="5 0 0 5" Name="btnOdbaci" Width="75" Click="btnOdbaci_Click">_Odbaci</Button>
+                </StackPanel>
+            </Grid>
+            <!-- Opasno po čoveka -->
+            <!--ComboBox ToolTip="Kada kliknete ovde otvoriće se padajuća lista. Neophodno je&#013;da izaberete da li je ugrožena vrsta opasna po život čoveka." >
+                <ComboBoxItem>Da</ComboBoxItem>
+                <ComboBoxItem>Ne</ComboBoxItem>
+            </-->
+            <StackPanel ToolTipService.ShowDuration="20000"  ToolTip="Potrebno je da izaberete li je ugrožena vrsta opasna po čoveka.&#013;Ukoliko jeste pritisnite kružić ispred Da, a ukoliko nije pritinite kružić ispred Ne." Orientation="Horizontal" Name="xOpasno" Margin="0 5 0 10" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Stretch">
+                
+                <RadioButton x:Name="opasnoPoCovekaDA"  Margin="20 0 40 0">Da</RadioButton>
+                <RadioButton x:Name="opasnoPoCovekaNE">Ne</RadioButton>
+            </StackPanel>
+            
+            <!--ComboBox ToolTip="Kada kliknete ovde otvoriće se padajuća lista. Neophodno je da izaberete&#013;da li se ugrožena vrsta nalazi na najpoznatijoj svetskoj listi ugroženih vrsta." Name="xLista" Margin="0 5 0 10" Grid.Column="7" Grid.Row="4" HorizontalAlignment="Stretch">
+                <ComboBoxItem>Da</ComboBoxItem>
+                <ComboBoxItem>Ne</ComboBoxItem>
+            </-->
+            <StackPanel ToolTipService.ShowDuration="20000" ToolTip="Potrebno je da izaberete li se ugrožena vrsta nalazi na najpoznatijoj svetskoj listi ugroženih vrsta.&#013;Ukoliko se nalazi na IUCN listi pritisnite kružić ispred Da, a ukoliko se ne nalazi na IUCN listi pritinite kružić ispred Ne." Orientation="Horizontal" Margin="0 5 0 10" Grid.Column="7" Grid.Row="4" HorizontalAlignment="Stretch">
+                <RadioButton x:Name="crvenoDA" Margin="20 0 40 0">Da</RadioButton>
+                <RadioButton x:Name="crvenoNE" >Ne</RadioButton>
+            </StackPanel>
+            <!--ComboBox ToolTip="Kada kliknete ovde otvoriće se padajuća lista. Neophodno je&#013;da izaberete da li ugrožena vrsta živi u naseljenom regionu." Name="xNaseljeno" Margin="0 5 0 10" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Stretch">
+                <ComboBoxItem>Da</ComboBoxItem>
+                <ComboBoxItem>Ne</ComboBoxItem>
+            </-->
+            <StackPanel  ToolTipService.ShowDuration="20000" ToolTip="Potrebno je da izaberete li ugrožena vrsta živi u naseljenom regionu.&#013;Ukoliko živi pritisnite kružić ispred Da, a ukoliko ne živi u naseljenom regionu pritinite kružić ispred Ne." Orientation="Horizontal" Margin="0 5 0 10" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Stretch">
+
+                <RadioButton x:Name="naseljenoDA" Margin="20 0 40 0">Da</RadioButton>
+                <RadioButton x:Name="naseljenoNE" >Ne</RadioButton>
+            </StackPanel>
+
+            <ComboBox ToolTipService.ShowDuration="20000"  ToolTip="Kada kliknete ovde otvoriće se padajuća lista. Potrebno&#013;je da izaberete kog turističkog statusa je ugrožena vrsta." Name="xTurista" Margin="0 5 0 10" Grid.Column="7" Grid.Row="5" HorizontalAlignment="Stretch">
+                <ComboBoxItem>Izolovana</ComboBoxItem>
+                <ComboBoxItem>Delimično habituirana</ComboBoxItem>
+                <ComboBoxItem>Habituirana</ComboBoxItem>
+            </ComboBox>
+            <StackPanel Margin="0 0 0 10" Grid.Column="3" Grid.Row="6">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="2.5*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBox  ToolTipService.ShowDuration="20000" ToolTip="Ovde unesite koliko iznosi godišnji prihod&#013;od turizma." Name="xGodisnje" Grid.Column="0" HorizontalAlignment="Stretch" TextChanged="xGodisnje_TextChanged" Height="22" VerticalAlignment="Bottom" GotFocus="xGodisnje_GotFocus">
+                        <TextBox.Text>
+                            <Binding Path="Prihod" UpdateSourceTrigger="LostFocus">
+                                <Binding.ValidationRules>
+                                    <local:ValidacijaPrihoda ValidationStep="RawProposedValue"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                        <Validation.ErrorTemplate>
+                            <ControlTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Orientation="Horizontal" Margin="0 0 20 0" Grid.Row="1">
+                                        <Border Background="Red" Width="20" Height="20" CornerRadius="10"
+                                        ToolTip="{Binding Path=/ErrorContent}">
+                                            <TextBlock Text="!" VerticalAlignment="center" HorizontalAlignment="center" FontWeight="Bold" Foreground="white"/>
+                                        </Border>
+                                        <TextBlock Margin="5,0,0,0" Foreground="Red" Text="{Binding [0].ErrorContent}"/>
+                                    </StackPanel>
+                                    <Border BorderBrush="Red" BorderThickness="1" Margin="5,0" Width="162" ToolTip="{Binding Path=/ErrorContent}" Grid.Row="0">
+                                        <AdornedElementPlaceholder Name="textBox"/>
+                                    </Border>
+                                </Grid>
+                            </ControlTemplate>
+                        </Validation.ErrorTemplate>
+                    </TextBox>
+
+                    <!--TextBox Name="xOznaka" Margin="0 15 0 0" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Stretch" TextChanged="xOznaka_TextChanged">
+                        <TextBox.Text>
+                            <Binding Path="Oznaka" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <local:ValidacijaOznakeVrste ValidationStep="RawProposedValue"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                        <Validation.ErrorTemplate>
+                            <ControlTemplate>
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="0 0 20 0">
+                                        <Border Background="Red" Width="20" Height="20" CornerRadius="10"
+                                        ToolTip="{Binding Path=/ErrorContent}">
+                                            <TextBlock Text="!" VerticalAlignment="center" HorizontalAlignment="center" FontWeight="Bold" Foreground="white"/>
+                                        </Border>
+                                        <TextBlock Margin="5,0,0,0" Foreground="Red" Text="{Binding [0].ErrorContent}"/>
+                                    </StackPanel>
+                                    <Border BorderBrush="Red" BorderThickness="1" Margin="5,0" Width="162" ToolTip="{Binding Path=/ErrorContent}">
+                                        <AdornedElementPlaceholder Name="textBox"/>
+                                    </Border>
+                                </StackPanel>
+                            </ControlTemplate>
+                        </Validation.ErrorTemplate>
+                    </-->
+
+
+
+
+                    <ComboBox ToolTipService.ShowDuration="20000"  ToolTip="Kada kliknete ovde otvoriće se padajuća lista. Potrebno&#013;je da izaberete valutu iznosa godišnjeg prihoda od turizma." Name="xValuta" Grid.Column="1" SelectedIndex="0">
+                        <ComboBoxItem>USD</ComboBoxItem>
+                        <ComboBoxItem>EUR</ComboBoxItem>
+                        <ComboBoxItem>RSD</ComboBoxItem>
+                    </ComboBox>
+                    <!--TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" FontSize="18px">USD</-->
+                </Grid>
+            </StackPanel>
+            <DatePicker ToolTipService.ShowDuration="20000"  ToolTip="Ovde možete uneti datum otkrivanja ugrožene vrste. Ukoliko pritisnete&#013;na ikonicu kalendara otvoriće se kalendar gde možete izabrati datum."  Name="xDatum" Grid.Column="7" Margin="0 0 0 10" Grid.Row="6" HorizontalAlignment="Stretch" SelectedDate="01/12/17"/>
+            <Button ToolTipService.ShowDuration="20000" ToolTipService.ShowOnDisabled="True" ToolTip="Kako bi dodavanje ugrožene vrste bilo moguće neophodno je da popunite&#013;sva polja sa zvezdicom (*). Pritiskom na dugme ugrožena vrsta će biti dodata." x:Name="PotvrdiDugme" Width="80" Height="30" HorizontalAlignment="Right" Grid.Column="3" Grid.Row="8" Click="Potvrdi_Click">Potvrdi</Button>
+            <Button ToolTip="Pritiskom na dugme ugrožena vrsta neće biti dodata." Grid.Column="5" Grid.Row="8" Width="80" Height="30" HorizontalAlignment="Left" Click="Odustani_Click">Odustani</Button>
+
+            <StackPanel Grid.Column="3" Grid.Row="3" Orientation="Vertical">
+                <TextBlock  HorizontalAlignment="Center">Upotrebljene etikete</TextBlock>
+                <ListView ToolTipService.ShowDuration="20000"  ToolTip="Ovde se nalaze etikete ugrožene vrste koje ste izabrali."  x:Name="UpotrebljeneEtikete"  ItemsSource="{Binding IskorisceneEtikete}" VerticalAlignment="Stretch" Height="55">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Oznaka}"></TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Vertical">
+                <TextBlock  HorizontalAlignment="Center">Slobodne etikete</TextBlock>
+                <ListView ToolTipService.ShowDuration="20000"  ToolTip="Ovde se nalaze etikete koje možete da dodelite ugroženoj vrsti." Background="LightGray"  x:Name="NeupotrebljeneEtikete" Grid.Column="2" ItemsSource="{Binding NekorisceneEtikete}" Height="55">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Oznaka}"></TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+
+            <Grid Grid.Column="2" Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button ToolTipService.ShowDuration="20000"  ToolTip="Pritiskom na strelicu će etiketa iz &#013;slobodnih etiketa preći u upotrebljene etikete."  x:Name="AddToUsed" Grid.Row="1" Background="{x:Null}" BorderBrush="{x:Null}" Click="DodajUKoriscene_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Grid.Row="0" Source="images/strelicadesno.jpg"></Image>
+                    </StackPanel>
+                </Button>
+
+                <Button ToolTipService.ShowDuration="20000"  ToolTip="Pritiskom na strelicu će etiketa iz &#013;upotrebljenih etiketa preći u slobodne etikete."  x:Name="AddToUnusedTags" Grid.Row="2" BorderBrush="{x:Null}" Background="{x:Null}" Click="DodajUNeiskoriscene_Click">
+
+                    <StackPanel Orientation="Horizontal">
+                        <Image Grid.Row="2" Source="images/strelicalevo.jpg"></Image>
+                    </StackPanel>
+                </Button>
+            </Grid>
+
+        </Grid>
+    </Border>
+</Window>
